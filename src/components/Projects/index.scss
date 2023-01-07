@@ -1,0 +1,42 @@
+.header-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+    h1 {
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'coolvetica';
+        font-weight: 400; 
+    }
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    overflow: hidden;
+   flex-direction: column;
+   background-color: #fff;
+   opacity: 0;
+   animation: fadeIn 1s 1.6s;
+   animation-fill-mode: forwards;
+}
+
+.image-container img {
+    margin-top: 15px;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 0px 15px -5px;
+      
+}
+.jeff {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
