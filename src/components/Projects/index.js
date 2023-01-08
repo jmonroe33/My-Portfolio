@@ -20,26 +20,31 @@ const Projects = () => {
 
     const projectData = [
         {
-            tite:"We Love Movies App",
-            body:"Html, Bootstrap, Javascript ",
+            title:"We Love Movies App",
+            body:"Knex, Postgres, Node, Express Js ",
             url:weLoveMovies,
+            link:"https://we-love-movies-frontend-pno8.onrender.com",
+            btn:"Movies-app"
         }, 
          {
-            tite:"Flash-card-app",
-            body:"asdfasdaf",
+            title:"Flash-card-app",
+            body:"HTML, CSS, React",
             url: flashcard,
-            icon: jsIcon,
+            link:"https://github.com/jmonroe33/Flash-Card-App",
+            btn:"Flashcard-app"
         },  
         {
-            tite:"Flash-card-app",
-            body:"asdfasdaf",
+            title:"Reservations-App",
+            body:"Knex, Postgres, React, Node.Js",
             url:reservation,
+            link:"https://restraurant-reservation-front-end.onrender.com/dashboard",
+            btn: "Reservations-app",
         },
     ];
 
     const projectLayout = projectData.map((project, index) => (
        
-        <div className='card-container' key={index}>
+        <div className='card' key={index}>
             <div className="image-container">
                 <img className="card-img-top" src={project.url} alt="Card image cap"/>
             </div>
@@ -48,7 +53,7 @@ const Projects = () => {
                             <h5>{project.title}</h5>
                         </div>
                         <p className="card-text">{project.body}</p>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <a href={project.link} className="btn">{project.btn}</a>
                     </div> 
             
         </div>
@@ -76,7 +81,7 @@ const Projects = () => {
                     </h1>
                 </div>
             </div>
-            <div className='jeff'>
+            <div className='card-container'>
                 {projectLayout}
             </div>
 
