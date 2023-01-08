@@ -4,7 +4,7 @@ import Loader from 'react-loaders'
 import weLoveMovies from "../../assets/images/we-love-movies.png"
 import reservation from "../../assets/images/Reservations.png"
 import flashcard from "../../assets/images/Flashcard.png"
-import jsIcon from "../../assets/images/logo3.png"
+
 
 
 
