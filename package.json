@@ -15,6 +15,7 @@
     "bootstrap": "^5.2.3",
     "fortawesome": "^0.0.1-security",
     "gsap-trial": "^3.11.4",
+    "leaflet": "^1.9.3",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
