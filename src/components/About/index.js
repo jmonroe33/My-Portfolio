@@ -26,14 +26,14 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                    I'm An aspiring front-end developer born and raised in the LA area looking
+                    I'm an aspiring front-end developer born and raised in the LA area looking
                     for any role in an established IT company with the opportunity to work 
                     with the latest technologies on challenging and diverse projects.
                     </p>
 
                     <p>I'm quietly confident, constantly trying to improve my skills one design problem at a time.</p>
                     <p> 
-                        If i had to describe myself in one sentence it would be a family oriented goofball
+                        If I had to describe myself in one sentence it would be a family oriented goofball
                         that loves to make music and watch tech videos. 
                     </p>
                 </div>

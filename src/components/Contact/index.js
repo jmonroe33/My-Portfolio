@@ -45,7 +45,7 @@ const Contact = () => {
 
                         />
                     </h1>
-                    <p> I am interested in any Full-Stack, Frontend, or Backtend roles especially one's that involve teamwork.
+                    <p> I am interested in any Full-Stack, Frontend, or Backend roles especially one's that involve teamwork.
                         If you have any questions, offers, or requests, please don't hesitate to contact me using the form below.
                     </p>
                     <div>
